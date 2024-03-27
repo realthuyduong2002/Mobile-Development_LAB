@@ -12,6 +12,9 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import services.TextAnalyticsService;
+import com.example.hw2.model.TextRequest;
+import com.example.hw2.model.ClassificationResponse;
 
 public class MainActivity extends AppCompatActivity {
     private EditText inputText;
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private void classifyText(String text) {
         // Tạo Retrofit instance
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://<your-api-region>.api.cognitive.microsoft.com/text/analytics/v2.1/")
+                .baseUrl("https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
