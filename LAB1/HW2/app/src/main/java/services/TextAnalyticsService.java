@@ -5,7 +5,8 @@ import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import retrofit2.http.Header;
-import java.model.TextRequest;
+import com.example.hw2.model.TextRequest;
+import com.example.hw2.model.ClassificationResponse;
 
 public interface TextAnalyticsService {
     @Headers({
