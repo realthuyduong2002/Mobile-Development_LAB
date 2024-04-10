@@ -7,13 +7,24 @@
     tools:context=".ContactInfo">
 
     <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000000"
+        android:padding="10dp"
+        android:text="Hello World, ContactActivity!"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"/>
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:paddingLeft="5dp"
         android:text="Name"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/nameTxtView"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_weight="2"
@@ -38,7 +49,7 @@
         android:layout_marginTop="28dp"
         android:paddingLeft="5dp"
         android:text="Email"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/emailTxtView"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +74,7 @@
         android:layout_marginTop="28dp"
         android:paddingLeft="5dp"
         android:text="Project"
-        android:textSize="25sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/projectTxtView"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,14 +94,13 @@
 
     <Button
         android:id="@+id/finishBtn"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Finish"
+        android:backgroundTint="#000080"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/projectTxtView" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
