@@ -1,0 +1,1 @@
+D:\AndroidStudio\Mobile-Development_LAB\LAB6\OpenCV_FaceDetect\openCV\libcxx_helper\CMakeLists.txt

@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: x86_64",
+    "file_": "C:\\Users\\ACER\\Downloads\\Compressed\\Lab6_Mobile_CS4153.O22.CTTT-main\\OpenCV_FaceDetect\\openCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1216307061
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\ACER\\Downloads\\Compressed\\Lab6_Mobile_CS4153.O22.CTTT-main\\OpenCV_FaceDetect\\openCV\\.cxx\\Debug\\1s315m53\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\ACER\\Downloads\\Compressed\\Lab6_Mobile_CS4153.O22.CTTT-main\\OpenCV_FaceDetect\\openCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1172659110
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\ACER\\Downloads\\Compressed\\Lab6_Mobile_CS4153.O22.CTTT-main\\OpenCV_FaceDetect\\openCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2043223058
+  }
+]
